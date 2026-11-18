@@ -1,0 +1,26 @@
+name: Bug report
+description: Something in HDR Snip did not work as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: This tracker is public. Do not include private information or screenshots that show it.
+  - type: textarea
+    id: report
+    attributes:
+      label: Report
+      description: In the app, use Settings > Report a bug and paste the copied report here. Then describe what you did, what you expected and what you saw.
+    validations:
+      required: true
+  - type: dropdown
+    id: display
+    attributes:
+      label: Display setup
+      options:
+        - One HDR display
+        - One SDR display
+        - HDR and SDR displays together
+        - Several HDR displays
+        - Not sure
+    validations:
+      required: true
