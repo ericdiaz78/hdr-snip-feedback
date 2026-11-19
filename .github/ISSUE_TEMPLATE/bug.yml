@@ -9,7 +9,13 @@ body:
     id: report
     attributes:
       label: Report
-      description: In the app, use Settings > Report a bug and paste the copied report here. Then describe what you did, what you expected and what you saw.
+      description: Describe what happened, then paste the report HDR Snip copied for you (Settings > Report a bug).
+      value: |
+        ### What happened
+        (Replace this line: what you did, what you expected, and what you saw.)
+
+        ### Diagnostics
+        (In HDR Snip, use Settings > Report a bug. Then select this line and press Ctrl+V to paste the copied report.)
     validations:
       required: true
   - type: dropdown
